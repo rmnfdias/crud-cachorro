@@ -1,0 +1,27 @@
+{
+  "name": "crud-cachorro",
+  "version": "1.0.0",
+  "description": "Crud-Cachorro",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon index.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmnfdias/crud-cachorro.git"
+  },
+  "author": "Ramon Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmnfdias/crud-cachorro/issues"
+  },
+  "homepage": "https://github.com/rmnfdias/crud-cachorro#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "jest": "^29.7.0"
+  }
+}
